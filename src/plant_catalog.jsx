@@ -47,26 +47,26 @@ const IMG = {
 
 
 const plants = [
-    { id: 1, name: "Сосна Швейцарская 'Wiethorst'", latin: "Pinus × schwerinii", category: "Деревья", price: "49,00 €", priceRed: true, size: "30–40 см (C5L)", light: "Яркий свет", image: IMG.img_0, color: "#2d5a27", bg: "#e8f4e2", description: "Высота взрослого дерева 4–6 м. Морозостойкая. Подходит как солитёр." },
-    { id: 2, name: "Сосна лесная 'Chantry Blue'", latin: "Pinus sylvestris", category: "Деревья", price: "39,00 €", priceRed: true, size: "50–60 см (C5L)", light: "Яркий свет", image: IMG.img_1, color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 3, name: "Сосна горная 'Benjamin'", latin: "Pinus mugo", category: "Деревья", price: "39,00 €", priceRed: true, size: "20–30 см (C5L)", light: "Яркий свет", image: IMG.img_2, color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 4, name: "Кипарисовик аризонский 'Fastigiata'", latin: "Cupressus arizonica", category: "Деревья", price: "16,50 €", priceRed: true, size: "90–110 см (C3L)", light: "Яркий свет", image: IMG.img_3, color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 5, name: "Кипарисовик Лейланда", latin: "Cupressocyparis leylandii", category: "Деревья", price: "34,00 €", priceRed: true, size: "140–170 см (C7L)", light: "Яркий свет", image: IMG.img_4, color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 6, name: "Кипарисовик Лейланда 'Castlewellan Gold'", latin: "Cupressocyparis leylandii", category: "Деревья", price: "12,90 €", priceRed: true, size: "110–130 см (C3L)", light: "Яркий свет", images: [IMG.img_5, IMG.img_6, IMG.img_7], color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 7, name: "Кипарисовик Лейланда 'Pyramidalis 2001'", latin: "Cupressocyparis leylandii", category: "Деревья", price: "29,00 €", priceRed: true, size: "80–100 см (C9L)", light: "Яркий свет", image: IMG.img_8, color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 8, name: "Кипарисовик Лейланда 'Gold Rider'", latin: "Cupressocyparis leylandii", category: "Деревья", price: "44,00 €", priceRed: true, size: "100–120 см (C9L)", light: "Яркий свет", image: IMG.img_9, color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 9, name: "Кипарисовик Лейланда", latin: "Cupressocyparis leylandii", category: "Деревья", price: "13,90 €", priceRed: true, size: "80–110 см (C3L)", light: "Яркий свет", image: IMG.img_10, color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 10, name: "Цефалотаксус 'Fastigiata'", latin: "Cephalotaxus harringtonia", category: "Деревья", price: "16,50 €", priceRed: true, size: "30–40 см (C3L)", light: "Полутень", images: [IMG.img_11, IMG.img_12, IMG.img_13], color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 11, name: "Туя западная 'Smaragd'", latin: "Thuja occidentalis", category: "Деревья", price: "35,00 €", priceRed: true, size: "170–180 см (коп.)", light: "Яркий свет", image: IMG.img_14, color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 12, name: "Ель белая 'Perfecta'", latin: "Picea glauca", category: "Деревья", price: "42,00 €", priceRed: true, size: "60–80 см (C5L)", light: "Яркий свет", image: IMG.img_15, color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 13, name: "Ель белая 'Alberta Globe'", latin: "Picea glauca", category: "Деревья", price: "5,50 €", priceRed: true, size: "5–15 см (C2L)", light: "Яркий свет", images: [IMG.img_16, IMG.img_17, IMG.img_18], color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 14, name: "Ель белая 'Conica'", latin: "Picea glauca", category: "Деревья", price: "6,50 €", priceRed: true, size: "30–40 см (C2L)", light: "Яркий свет", image: IMG.img_20, color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 15, name: "Ель белая 'Witch's Broom'", latin: "Picea glauca", category: "Деревья", price: "5,90 €", priceRed: true, size: "10–15 см (C2L)", light: "Яркий свет", images: [IMG.img_21, IMG.img_22, IMG.img_23], color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 16, name: "Ель колючая 'Glauca Globosa'", latin: "Picea pungens", category: "Деревья", price: "48,00 €", priceRed: true, size: "80–90 см (C5L)", light: "Яркий свет", images: [IMG.img_24, IMG.img_25, IMG.img_26], color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 17, name: "Ель колючая 'Iseli Fastigiate'", latin: "Picea pungens", category: "Деревья", price: "39,00 €", priceRed: true, size: "40–50 см (C5L)", light: "Яркий свет", images: [IMG.img_27, IMG.img_28, IMG.img_29], color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 18, name: "Ель колючая 'Pendula'", latin: "Picea pungens", category: "Деревья", price: "69,00 €", priceRed: true, size: "100–120 см (C7.5L)", light: "Яркий свет", images: [IMG.img_30, IMG.img_31, IMG.img_32], color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 19, name: "Ель обыкновенная 'Acrocona'", latin: "Picea abies", category: "Деревья", price: "39,00 €", priceRed: true, size: "30–40 см (C7.5L)", light: "Яркий свет", images: [IMG.img_33, IMG.img_34, IMG.img_35, IMG.img_36, IMG.img_37, IMG.img_38], color: "#2d5a27", bg: "#e8f4e2" },
-    { id: 20, name: "Ель колючая 'Glauca'", latin: "Picea pungens", category: "Деревья", price: "69,00 €", priceRed: true, size: "80–100 см (C12L)", light: "Яркий свет", images: [IMG.img_39, IMG.img_40], color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 1, name: "Сосна Швейцарская 'Wiethorst'", latin: "Pinus × schwerinii", category: "Деревья", price: "55,00 €", priceRed: true, size: "30–40 см (C5L)", light: "Яркий свет", image: IMG.img_0, color: "#2d5a27", bg: "#e8f4e2", description: "Высота взрослого дерева 4–6 м. Морозостойкая. Подходит как солитёр." },
+    { id: 2, name: "Сосна лесная 'Chantry Blue'", latin: "Pinus sylvestris", category: "Деревья", price: "45,00 €", priceRed: true, size: "50–60 см (C5L)", light: "Яркий свет", image: IMG.img_1, color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 3, name: "Сосна горная 'Benjamin'", latin: "Pinus mugo", category: "Деревья", price: "45,00 €", priceRed: true, size: "20–30 см (C5L)", light: "Яркий свет", image: IMG.img_2, color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 4, name: "Кипарисовик аризонский 'Fastigiata'", latin: "Cupressus arizonica", category: "Деревья", price: "23,00 €", priceRed: true, size: "90–110 см (C3L)", light: "Яркий свет", image: IMG.img_3, color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 5, name: "Кипарисовик Лейланда", latin: "Cupressocyparis leylandii", category: "Деревья", price: "40,00 €", priceRed: true, size: "140–170 см (C7L)", light: "Яркий свет", image: IMG.img_4, color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 6, name: "Кипарисовик Лейланда 'Castlewellan Gold'", latin: "Cupressocyparis leylandii", category: "Деревья", price: "17,00 €", priceRed: true, size: "110–130 см (C3L)", light: "Яркий свет", images: [IMG.img_5, IMG.img_6, IMG.img_7], color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 7, name: "Кипарисовик Лейланда 'Pyramidalis 2001'", latin: "Cupressocyparis leylandii", category: "Деревья", price: "36,00 €", priceRed: true, size: "80–100 см (C9L)", light: "Яркий свет", image: IMG.img_8, color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 8, name: "Кипарисовик Лейланда 'Gold Rider'", latin: "Cupressocyparis leylandii", category: "Деревья", price: "55,00 €", priceRed: true, size: "100–120 см (C9L)", light: "Яркий свет", image: IMG.img_9, color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 9, name: "Кипарисовик Лейланда", latin: "Cupressocyparis leylandii", category: "Деревья", price: "17,90 €", priceRed: true, size: "80–110 см (C3L)", light: "Яркий свет", image: IMG.img_10, color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 10, name: "Цефалотаксус 'Fastigiata'", latin: "Cephalotaxus harringtonia", category: "Деревья", price: "22,50 €", priceRed: true, size: "30–40 см (C3L)", light: "Полутень", images: [IMG.img_11, IMG.img_12, IMG.img_13], color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 11, name: "Туя западная 'Smaragd'", latin: "Thuja occidentalis", category: "Деревья", price: "44,00 €", priceRed: true, size: "170–180 см (коп.)", light: "Яркий свет", image: IMG.img_14, color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 12, name: "Ель белая 'Perfecta'", latin: "Picea glauca", category: "Деревья", price: "50,00 €", priceRed: true, size: "60–80 см (C5L)", light: "Яркий свет", image: IMG.img_15, color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 13, name: "Ель белая 'Alberta Globe'", latin: "Picea glauca", category: "Деревья", price: "9,50 €", priceRed: true, size: "5–15 см (C2L)", light: "Яркий свет", images: [IMG.img_16, IMG.img_17, IMG.img_18], color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 14, name: "Ель белая 'Conica'", latin: "Picea glauca", category: "Деревья", price: "11,50 €", priceRed: true, size: "30–40 см (C2L)", light: "Яркий свет", image: IMG.img_20, color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 15, name: "Ель белая 'Witch's Broom'", latin: "Picea glauca", category: "Деревья", price: "9,90 €", priceRed: true, size: "10–15 см (C2L)", light: "Яркий свет", images: [IMG.img_21, IMG.img_22, IMG.img_23], color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 16, name: "Ель колючая 'Glauca Globosa'", latin: "Picea pungens", category: "Деревья", price: "56,00 €", priceRed: true, size: "80–90 см (C5L)", light: "Яркий свет", images: [IMG.img_24, IMG.img_25, IMG.img_26], color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 17, name: "Ель колючая 'Iseli Fastigiate'", latin: "Picea pungens", category: "Деревья", price: "45,00 €", priceRed: true, size: "40–50 см (C5L)", light: "Яркий свет", images: [IMG.img_27, IMG.img_28, IMG.img_29], color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 18, name: "Ель колючая 'Pendula'", latin: "Picea pungens", category: "Деревья", price: "75,00 €", priceRed: true, size: "100–120 см (C7.5L)", light: "Яркий свет", images: [IMG.img_30, IMG.img_31, IMG.img_32], color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 19, name: "Ель обыкновенная 'Acrocona'", latin: "Picea abies", category: "Деревья", price: "45,00 €", priceRed: true, size: "30–40 см (C7.5L)", light: "Яркий свет", images: [IMG.img_33, IMG.img_34, IMG.img_35, IMG.img_36, IMG.img_37, IMG.img_38], color: "#2d5a27", bg: "#e8f4e2" },
+    { id: 20, name: "Ель колючая 'Glauca'", latin: "Picea pungens", category: "Деревья", price: "79,00 €", priceRed: true, size: "80–100 см (C12L)", light: "Яркий свет", images: [IMG.img_39, IMG.img_40], color: "#2d5a27", bg: "#e8f4e2" },
 ];
 
 const Modal = ({ imgs, startIdx, name, onClose }) => {
@@ -181,8 +181,7 @@ const PlantCard = ({ plant }) => (
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <span style={{
             fontFamily: "'Cormorant Garamond', serif", fontSize: 22, fontWeight: 700,
-            color: plant.priceRed ? "#fff" : "#2d5a27",
-            background: plant.priceRed ? "#c0392b" : "transparent",
+            color: "#2d5a27",
             borderRadius: plant.priceRed ? 8 : 0,
             padding: plant.priceRed ? "2px 10px" : 0,
         }}>
@@ -330,7 +329,7 @@ export default function Catalog() {
                         type="range"
                         min={Math.min(...allPrices)}
                         max={globalMax}
-                        step={1}
+                        step={0.5}
                         value={maxPrice}
                         onChange={e => setMaxPrice(Number(e.target.value))}
                         style={{
